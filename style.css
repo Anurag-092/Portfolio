@@ -142,6 +142,7 @@ body{
     font-family: rocher;
     font-weight: 500;
     color: #0ef;
+    font-family: popins ,sans-serif;
 }
 
 .hero-content p{
@@ -407,7 +408,7 @@ body{
     height: 10px;
     background: #48abe0;
     position: absolute;
-    box-shadow: 0px 0px 10px 1px cyan;
+    box-shadow: 0px 0px 10px 1px #48abe0;
 }
 @keyframes title {
     0% {
@@ -566,6 +567,15 @@ width: 100%;
     .right-container{
         display: none;
 
+    }
+    .hero-content h1{
+        font-size: 35px;
+    }
+    .projects h2{
+        font-size: 35px;
+    }
+    .about-text h2{
+        font-size: 40px;
     }
 }
 @media screen and (max-width:880px) {
